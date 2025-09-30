@@ -1,4 +1,4 @@
-import { TouchableOpacity, Text } from "react-native";
+import { TouchableOpacity, Text, StyleSheet } from "react-native";
 
 type Props = {
     title: string;
@@ -12,8 +12,8 @@ export function Botao({title}: Props) {
     )
 }
 
-const styles = {
+const styles = StyleSheet.create({
     botao : {
         backgroundColor: '#C6FC03',
     }
-}
+})
