@@ -1,0 +1,39 @@
+.navbarIcon{
+    box-sizing: border-box;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5vh;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-decoration: none;
+    border-radius: 10%;
+    color: #A6A6A6;
+    fill: #A6A6A6;
+    transition: 0.3s ease-in-out;
+}
+
+.navbarIcon:hover{
+    color: #FFFFFF;
+    fill: #FFFFFF;
+    transition: 0.3s ease-in-out;
+}
+
+.navbarIcon:focus{
+    border: solid 0.3vh;
+    border-radius: 10%;
+    box-shadow: #C6FC0333 0vh 0vh 1.5vh 1.5vh;
+    color: #C6FC03;
+    transition: 0.1s ease-in-out;
+}
+
+.icon{
+    width: 2.5vh;
+    margin: 5%;
+}
+
+.label{
+    margin: 0%;
+    font-size: small;
+}

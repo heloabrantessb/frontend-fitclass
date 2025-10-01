@@ -1,0 +1,8 @@
+.navbarMain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 13vh;
+    background-color: #262626;
+}
