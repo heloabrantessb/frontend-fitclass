@@ -22,10 +22,10 @@ export function LoginForm() {
 
 const styles = StyleSheet.create({
     inputContainer: {
-        marginBottom: 15,
+        marginBottom: 10,
     },
     label:{
         color: 'white',
-        marginBottom: 10,
+        marginBottom: 5,
     }
 });

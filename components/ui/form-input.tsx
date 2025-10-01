@@ -6,7 +6,7 @@ type Props = {
 
 const color = {
     backgroundGray: 'rgba(255, 255, 255, 0.2)',
-    lightGray: 'rgba(255, 255, 255, 0.3)',
+    lightGray: 'rgba(255, 255, 255, 0.6)',
 }
 
 export function FormInput({placeholder}: Props) {
