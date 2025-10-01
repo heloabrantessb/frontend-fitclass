@@ -7,11 +7,11 @@ interface NavbarIconProps{
     pathTo: string;
 }
 
-const NavbarIcon = ({props: label, imgSrc, pathTo}: NavbarIconProps) => {
+const NavbarIcon = ({label, imgSrc, pathTo}: NavbarIconProps) => {
     return(
-        <a href={props.pathTo} className='navbarIcon'>
-            <img className='icon' src={props.imgSrc}/>
-            <p className='label'>{props.label}</p>
+        <a href={pathTo} className='navbarIcon'>
+            <img className='icon' src={imgSrc}/>
+            <p className='label'>{label}</p>
         </a>
     )
 }
