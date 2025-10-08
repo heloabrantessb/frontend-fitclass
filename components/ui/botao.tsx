@@ -1,12 +1,13 @@
-import { TouchableOpacity, Text, StyleSheet } from "react-native";
+import { TouchableOpacity, Text, StyleSheet, GestureResponderEvent } from "react-native";
 
-type Props = {
+interface Props {
     title: string;
+    onPress: (event: GestureResponderEvent) => void;
 }
 
-export function Botao({title}: Props) {
+export function Botao({title, onPress}: Props) {
     return (
-        <TouchableOpacity style={styles.botao}>
+        <TouchableOpacity style={styles.botao} onPress={onPress}>
             <Text>{title}</Text>
         </TouchableOpacity>
     )
