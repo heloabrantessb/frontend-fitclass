@@ -1,0 +1,65 @@
+.card{
+    background-image: linear-gradient(to bottom, #5C5454, #262626);
+    width: 80%;
+    border-radius: 2.5vh;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.label{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.labelTitle{
+    font-size: xx-large;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.labelDateTime{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.labelTime{
+    padding: 0;
+    margin: 0;
+    font-size: x-large;
+    font-weight: bold;
+    color: #C6FC03;
+}
+
+.labelDuration{
+    padding: 0;
+    margin: 0;
+}
+
+.cardLine{
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.icon{
+    height: 1.5vh;
+    margin: 0;
+    padding: 0;
+}
+
+.cardLineText{
+    padding: 0;
+    margin: 0;
+}
